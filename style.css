@@ -1,16 +1,153 @@
 /* styles.css */
 
-div {
-    color: white;
-    background-color: rgb(186, 207, 146);
-  }
-  
-  p {
-    color: red;
-  }
-  
-.comun {
 
-background-color: aquamarine;   
-font-size: larger;
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Hero New', sans-serif;
+}
+
+.header{
+  display: flex;
+  height: 120px;
+  background-color: #1f2937;
+  justify-content: space-between;
+  padding: 20px;
+
+
+}
+
+.header img{
+  height: 100px;
+  width: 250px;
+  background-color: #11ffee00; 
+}
+
+
+a{
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 26px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.subheader{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.imag{
+  display: flex;
+  padding: 10px;
+  margin: 60px;
+}
+.imag img{
+  border-radius: 20px;
+  background: #223b70;
+  padding: 5px;
+  width: 750px;
+  height: 450px; 
+}
+
+
+.text1{
+  display: flex;
+  flex-direction: column;
+  font-size: 48px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+  font-weight: bolder;
+  color: #f9faf8;
+  
+}
+.text1 p{
+  font-size: 18px;
+  text-align: center;
+}
+
+.middlepage{
+  display: flex;
+  flex-direction: column;
+  font-size: 55px;
+  padding: 40px;
+}
+.middlepage p {
+  text-align: center;
+}
+
+.cuadro{
+  display: flex;
+  padding: 40px;
+  padding-bottom: 0px;
+  justify-content: space-between;
+}
+.cuadro img{
+  width: 400px;
+  border-radius: 20px;
+  background: #223b70;
+  padding: 5px;
+}
+
+.subimages{
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  margin-top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.lowmid{
+  background-color: #e5e7eb;
+  font-size: 30px;
+  text-align: center;
+  padding: 100px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+.lowmid p {
+  font-weight: bolder;
+  text-align: right;
+}
+
+.lowmidcontainer{
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.subfooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:royalblue;
+  width: 1100px;
+  border-radius: 10px;
+  color: #e5e7eb;
+  font-size: 36px;
+}
+.subfooter p{
+  font-size: 14px;
+}
+
+.footer{
+  text-align: center;
 }
